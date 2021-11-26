@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardrow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:layout_marginTop="5dp"
+    app:cardBackgroundColor="#ffffff"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/quotetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/hindmedium"
+                android:gravity="center"
+                android:text="किस"
+                android:textColor="#065596"
+                android:textSize="@dimen/_17sdp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/backtext" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <com.skydoves.elasticviews.ElasticImageView
+                    android:id="@+id/copy"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/copy"
+                    app:cardView_duration="200"
+                    app:cardView_scale="0.85" />
+
+                <com.skydoves.elasticviews.ElasticImageView
+                    android:id="@+id/fb"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/facebook"
+                    app:cardView_duration="300"
+                    app:cardView_scale="0.99" />
+
+                <com.skydoves.elasticviews.ElasticImageView
+                    android:id="@+id/wt"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/whatsapp"
+                    app:cardView_duration="200"
+                    app:cardView_scale="0.8" />
+
+                <com.skydoves.elasticviews.ElasticImageView
+                    android:id="@+id/ig"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/instagram"
+                    app:cardView_duration="200"
+                    app:cardView_scale="0.8" />
+
+                <com.skydoves.elasticviews.ElasticImageView
+                    android:id="@+id/share"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_share_black"
+                    app:cardView_duration="250"
+                    app:cardView_scale="0.87" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_adplaceholder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

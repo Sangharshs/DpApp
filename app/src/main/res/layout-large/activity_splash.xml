@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+
+
+        <ImageView
+            android:layout_marginTop="200dp"
+            android:layout_gravity="center"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/rclogo"/>
+
+<!--    </androidx.cardview.widget.CardView>-->
+    <TextView
+        android:id="@+id/app_NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/loh"
+        android:layout_marginTop="20dp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        />
+
+        <RelativeLayout
+            android:layout_marginTop="130dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+           
+
+    <com.agrawalsuneet.dotsloader.loaders.LazyLoader
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:id="@+id/lazyloader"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true"
+        app:lazyloader_animDur="800"
+        app:lazyloader_dotsDist="10dp"
+        app:lazyloader_dotsRadius="10dp"
+        app:lazyloader_firstDelayDur="150"
+        app:lazyloader_firstDotColor="@android:color/white"
+        app:lazyloader_interpolator="@android:anim/decelerate_interpolator"
+        app:lazyloader_secondDelayDur="300"
+        app:lazyloader_secondDotColor="@android:color/white"
+        app:lazyloader_thirdDotColor="@android:color/white" />
+</RelativeLayout>
+
+
+</LinearLayout>

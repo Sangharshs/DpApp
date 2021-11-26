@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "357436684626",
+    "project_id": "quotes-app-c185a",
+    "storage_bucket": "quotes-app-c185a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357436684626:android:85e013a7f8e4185f30228b",
+        "android_client_info": {
+          "package_name": "com.sangharsh.statusapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357436684626-qp1midtv13v69ro8tgvbcs42q7cc9col.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwAvG3sEGsaBvqGLqe9MB5Gi7wKwfmFgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357436684626-qp1midtv13v69ro8tgvbcs42q7cc9col.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Islamic Girls Dpz</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ISLAMIC</string>
+    <string name="nav_header_subtitle">Best DP and Status</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <!--    <string name="fb_banner_ads">604354307140085_604355950473254</string>-->
+    <!--    <string name="fb_interstitial_ad">322867452117587_322870852117247</string>-->
+    <!-- Edited-->
+    <!--    <string name="fb_banner_ads">322867452117587_322869378784061</string>-->
+    <!--    <string name="fb_interstitial_ad">322867452117587_322870852117247</string>-->
+    <!--07-10-2020-->
+    <string name="banner_ads">ca-app-pub-3940256099942544/63009781</string>
+    <string name="interstitial_ad">ca-app-pub-3940256099942544/10331737</string>
+
+
+
+
+    <string name="fb_app_id">1404026186435832</string>
+
+    <string name="title_home">Hindi Quotes</string>
+    <string name="title_dashboard">Images</string>
+    <string name="title_notifications">English Quotes</string>
+    <string name="play_store_link">https://play.google.com/store/apps/details?id=</string>
+    <string name="download_started">Downloading Start</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

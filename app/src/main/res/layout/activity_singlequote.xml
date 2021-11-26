@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".SinglequoteActivity">
+    <com.google.android.gms.ads.AdView
+        android:layout_marginTop="3dp"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ads"/>
+    <RelativeLayout
+        android:id="@+id/swipelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/bordersq"
+        android:gravity="center">
+<RelativeLayout
+    android:backgroundTint="@android:color/white"
+    android:layout_margin="6dp"
+    android:id="@+id/shareLayout_with_text"
+    android:layout_width="match_parent"
+    android:background="@drawable/www"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/single_quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:text="@string/app_name"
+            android:textSize="23sp"
+            />
+</RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/horizontal_images"
+        android:id="@+id/linear"
+        android:gravity="bottom"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                app:cardCornerRadius="20dp"
+                android:clickable="true"
+                android:id="@+id/copy_quote"
+                app:cardElevation="5dp"
+                android:focusable="true"
+                android:layout_marginStart="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_height="50dp">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="30dp"
+                     android:background="@drawable/ic_baseline_file_copy_24"
+                    android:layout_gravity="center"
+                    android:layout_height="30dp">
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:layout_width="50dp"
+             android:layout_marginStart="10dp"
+             app:cardCornerRadius="20dp"
+             android:clickable="true"
+             app:cardElevation="5dp"
+             android:id="@+id/share_fb"
+             android:focusable="true"
+             android:foreground="?android:attr/selectableItemBackground"
+             android:layout_height="50dp">
+           <LinearLayout
+               android:gravity="center"
+               android:layout_width="50dp"
+               android:background="@drawable/ic"
+               android:layout_height="50dp">
+
+           </LinearLayout>
+         </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginStart="10dp"
+                android:layout_width="50dp"
+                app:cardCornerRadius="20dp"
+                android:clickable="true"
+                android:id="@+id/share_insta"
+                app:cardElevation="5dp"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_height="50dp">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="50dp"
+                    android:background="@drawable/insta"
+                    android:layout_height="50dp">
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="20dp"
+                android:clickable="true"
+                android:id="@+id/share_wh"
+                app:cardElevation="5dp"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_height="50dp">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="50dp"
+                    android:background="@drawable/wh"
+                    android:layout_height="50dp">
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                app:cardCornerRadius="20dp"
+                android:clickable="true"
+                android:id="@+id/share_share"
+                app:cardElevation="5dp"
+                android:focusable="true"
+                android:layout_marginStart="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_height="50dp">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="40dp"
+                    android:background="@drawable/sh"
+                    android:layout_gravity="center"
+                    android:layout_height="40dp">
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+<!--            <ImageButton-->
+
+<!--                android:layout_margin="5dp"-->
+<!--                android:id="@+id/share_fb"-->
+<!--                android:src="@drawable/ic"-->
+
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                />-->
+
+
+<!--            <ImageButton-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:id="@+id/share_wh"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:background="@drawable/wh"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                />-->
+
+<!--            <ImageButton-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:id="@+id/share_insta"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:background="@drawable/insta"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                />-->
+
+<!--            <ImageButton-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:id="@+id/share_share"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:background="@android:color/www"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:backgroundTint="@color/colorAccent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:src="@drawable/sh"/>-->
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#070707</color>
+    <color name="colorPrimaryDark">#090808</color>
+    <color name="colorAccent">#CDDC39</color>
+    <color name="hamburgerBlack">#FFFFFF</color>
+    <color name="quotecolor">#0A79DC</color>
+    <color name="backtext">#e8e9e8</color>
+</resources>
